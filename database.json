@@ -1,318 +1,389 @@
 {
-    "owners": [
-        {
-            "id": 1,
-            "name": "Tiana Robinson",
-            "image": "http://placeimg.com/640/480",
-            "description": "A deleniti est sed vel. Dolores aliquid enim vero. Quia eligendi vel voluptas.",
-            "email": "trob@gmail.com",
-            "phoneNumber": "5077201157",
-            "cityId": 1
-        },
-        {
-            "id": 2,
-            "name": "Zach Rourke",
-            "image": "http://placeimg.com/640/480",
-            "description": "Et repellendus consequatur deserunt placeat amet impedit eaque harum.",
-            "email": "zachrourke@gmail.com",
-            "phoneNumber": "8395474836",
-            "cityId": 1
-        },
-        {
-            "id": 3,
-            "name": "Nick Crespinel",
-            "image": "http://placeimg.com/640/480",
-            "description": "Repudiandae vero autem mollitia.",
-            "email": "crispy@gmail.com",
-            "phoneNumber": "4208046643",
-            "cityId": 1
-        },
-        {
-            "id": 4,
-            "name": "Lauren Hanson",
-            "image": "http://placeimg.com/640/480",
-            "description": "Et aspernatur recusandae.",
-            "email": "lohanson@gmail.com",
-            "phoneNumber": "735-875-2353",
-            "cityId": 2
-        },
-        {
-            "id": 5,
-            "name": "Maeghan Phan",
-            "image": "http://placeimg.com/640/480",
-            "description": "Quasi assumenda sint quas voluptas atque.",
-            "email": "maeghanphan@gmail.com",
-            "phoneNumber": "233-936-3464",
-            "cityId": 2
-        },
-        {
-            "id": 6,
-            "name": "Nick Valdez",
-            "image": "http://placeimg.com/640/480",
-            "description": "Debitis neque mollitia rerum placeat molestias tempora consectetur.",
-            "email": "nickvaldez@gmail.com",
-            "phoneNumber": "745-813-2083",
-            "cityId": 2
-        },
-        {
-            "id": 7,
-            "name": "Van and Aiza",
-            "image": "http://placeimg.com/640/480",
-            "description": "Culpa totam recusandae.",
-            "email": "huang@gmail.com",
-            "phoneNumber": "277-371-7040",
-            "cityId": 1
-        }
-    ],"dogs": [
-        {
-            "id": 1,
-            "ownerId": 1,
-            "name": "Cleo",
-            "imageOne": "http://placeimg.com/640/480",
-            "imageTwo": "http://placeimg.com/640/480",
-            "imageThree": "http://placeimg.com/640/480",
-            "imageFour": "http://placeimg.com/640/480",
-            "description": "A deleniti est sed vel. Dolores aliquid enim vero. Quia eligendi vel voluptas.",
-            "birthday": 24092021,
-            "genderId": 1,
-            "activityId": [1,2,4,5],
-            "goalId": [3,4],
-            "siteId": [1,2],
-            "energyLevelId": 3,
-            "isDefault": true
-        },
-        {
-            "id": 2,
-            "ownerId": 2,
-            "name": "Aurora",
-            "imageOne": "http://placeimg.com/640/480",
-            "imageTwo": "http://placeimg.com/640/480",
-            "imageThree": "http://placeimg.com/640/480",
-            "imageFour": "http://placeimg.com/640/480",
-            "description": "Et repellendus consequatur deserunt placeat amet impedit eaque harum.",
-            "birthday": 31102019,
-            "genderId": 1,
-            "activityId": [1,3,4],
-            "goalId": [3,4],
-            "siteId": [1,2,3],
-            "energyLevelId": 2,
-            "isDefault": true
-        },
-        {
-            "id": 3,
-            "ownerId": 3,
-            "name": "Koko & Billie",
-            "imageOne": "http://placeimg.com/640/480",
-            "imageTwo": "http://placeimg.com/640/480",
-            "imageThree": "http://placeimg.com/640/480",
-            "imageFour": "http://placeimg.com/640/480",
-            "description": "Repudiandae vero autem mollitia.",
-            "birthday": 152020,
-            "genderId": 1,
-            "activityId": [1,2,3,4],
-            "goalId": [1,3,4,5],
-            "siteId": [1,2,4],
-            "energyLevelId": 2,
-            "isDefault": true
-        },
-        {
-            "id": 4,
-            "ownerId": 4,
-            "name": "George",
-            "imageOne": "http://placeimg.com/640/480",
-            "imageTwo": "http://placeimg.com/640/480",
-            "imageThree": "http://placeimg.com/640/480",
-            "imageFour": "http://placeimg.com/640/480",
-            "birthday": 11072020,
-            "genderId": 2,
-            "activityId": [2,3,4],
-            "goalId": [1,3,4],
-            "siteId": [5,8],
-            "energyLevelId": 2,
-            "isDefault": true
-        },
-        {
-            "id": 5,
-            "ownerId": 5,
-            "name": "Penny",
-            "imageOne": "http://placeimg.com/640/480",
-            "imageTwo": "http://placeimg.com/640/480",
-            "imageThree": "http://placeimg.com/640/480",
-            "imageFour": "http://placeimg.com/640/480",
-            "description": "Quasi assumenda sint quas voluptas atque.",
-            "birthday": 12252018,
-            "genderId": 1,
-            "activityId": [1,2,3,4],
-            "goalId": [4,5],
-            "siteId": [5,6,7],
-            "energyLevelId": 2,
-            "isDefault": true
-        },
-        {
-            "id": 6,
-            "ownerId": 6,
-            "name": "Moose",
-            "imageOne": "http://placeimg.com/640/480",
-            "imageTwo": "http://placeimg.com/640/480",
-            "imageThree": "http://placeimg.com/640/480",
-            "imageFour": "http://placeimg.com/640/480",
-            "description": "Debitis neque mollitia rerum placeat molestias tempora consectetur.",
-            "birthday": 10312020,
-            "genderId": 2,
-            "activityId": [1,2,4,5],
-            "goalId": [2,4,5],
-            "siteId": [5,6,7],
-            "energyLevelId": 3,
-            "isDefault": true
-        },
-        {
-            "id": 7,
-            "ownerId": 7,
-            "name": "Bao",
-            "imageOne": "http://placeimg.com/640/480",
-            "imageTwo": "http://placeimg.com/640/480",
-            "imageThree": "http://placeimg.com/640/480",
-            "imageFour": "http://placeimg.com/640/480",
-            "description": "Culpa totam recusandae.",
-            "birthday": 15042019,
-            "genderId": 2,
-            "activityId": [3,4],
-            "goalId": [2,4],
-            "siteId": 1,
-            "energyLevelId": 1,
-            "isDefault": true
-        }
-    ],
-    "cities": [
-        {
-            "id": 1,
-            "name": "Seattle"
-        },
-        {
-            "id": 2,
-            "name": "Nashville"
-        }
-    ],
-    "genders": [
-        {
-            "id": 1,
-            "type": "female"
-        },
-        {
-            "id": 2,
-            "type": "male"
-        },
-        {
-            "id": 3,
-            "type": "non-binary"
-        }
-    ],
-    "energyLevels": [
-        {
-            "id": 1,
-            "type": "low"
-          },
-          {
-            "id": 2,
-            "type": "moderate"
-          },
-          {
-            "id": 3,
-            "type": "high"
-          }
-    ],
-    "activities": [
-        {
-            "id": 1,
-            "type": "walks on the beach"
-        },
-        {
-            "id": 2,
-            "type": "running"
-        },
-        {
-            "id": 3,
-            "type": "napping"
-        },
-        {
-            "id": 4,
-            "type": "people watching"
-        },
-        {
-            "id": 5,
-            "type": "obstacle courses"
-        }
-    ],
-    "goals": [
-        {
-            "id": 1,
-            "type": "fetch"
-        },
-        {
-            "id": 2,
-            "type": "sit"
-        },
-        {
-            "id": 3,
-            "type": "play dead"
-        },
-        {
-            "id": 4,
-            "type": "shake hands"
-        },
-        {
-            "id": 5,
-            "type": "roll over"
-        }
-    ],
-    "sites": [
-        {
-            "id": 1,
-            "cityId": 1,
-            "name": "Golden Gardens Park",
-            "address": "8498 Seaview Pl NW, Seattle, WA 98117"
-        },
-        {
-            "id": 2,
-            "cityId": 1,
-            "name": "Warren G. Magnuson Park",
-            "address": "7400 Sand Point Way NE, Seattle, WA 98115"
-        },
-        {
-            "id": 3,
-            "cityId": 1,
-            "name": "Magnolia Manor Park",
-            "address": "3500 28th Ave W, Seattle, WA 98199"
-        },
-        {
-            "id": 4,
-            "cityId": 1,
-            "name": "Regrade Dog Park",
-            "address": "2251 3rd Ave, Seattle, WA 98121"
-        },
-        {
-            "id": 5,
-            "cityId": 2,
-            "name": "Centennial Dog Park",
-            "address": "2500 West End Ave, Nashville, TN 37203"
-        },
-        {
-            "id": 6,
-            "cityId": 2,
-            "name": "Edwin Warner Dog Park",
-            "address": "50 Vaughn Rd, Nashville, TN 37221"
-        },
-        {
-            "id": 7,
-            "cityId": 2,
-            "name": "Shelby Dog Park",
-            "address": "401 S 20th St, Nashville, TN 37206"
-        },
-        {
-            "id": 8,
-            "cityId": 2,
-            "name": "Two Rivers Dog Park",
-            "address": "3150 McGavock Pike, Nashville, TN 37214"
-        }
-    ]
+  "owners": [
+    {
+      "id": 1,
+      "name": "Tiana Robinson",
+      "image": "http://placeimg.com/640/480",
+      "description": "A deleniti est sed vel. Dolores aliquid enim vero. Quia eligendi vel voluptas.",
+      "email": "trob@gmail.com",
+      "phoneNumber": "5077201157",
+      "cityId": 1,
+      "isRegistered": true
+    },
+    {
+      "id": 2,
+      "name": "Zach Rourke",
+      "image": "http://placeimg.com/640/480",
+      "description": "Et repellendus consequatur deserunt placeat amet impedit eaque harum.",
+      "email": "zachrourke@gmail.com",
+      "phoneNumber": "8395474836",
+      "cityId": 1,
+      "isRegistered": true
+    },
+    {
+      "id": 3,
+      "name": "Nick Crespinel",
+      "image": "http://placeimg.com/640/480",
+      "description": "Repudiandae vero autem mollitia.",
+      "email": "crispy@gmail.com",
+      "phoneNumber": "4208046643",
+      "cityId": 1,
+      "isRegistered": true
+    },
+    {
+      "id": 4,
+      "name": "Lauren Hanson",
+      "image": "http://placeimg.com/640/480",
+      "description": "Et aspernatur recusandae.",
+      "email": "lohanson@gmail.com",
+      "phoneNumber": "735-875-2353",
+      "cityId": 2,
+      "isRegistered": true
+    }
+  ],
+  "dogs": [
+    {
+      "id": 1,
+      "ownerId": 1,
+      "name": "Cleo",
+      "image": "C:\\fakepath\\Screen Shot 2022-12-12 at 1.06.38 PM.png",
+      "description": "They named me after the Egyptian queen Cleopatra!",
+      "birthday": "2023-01-27",
+      "genderId": 1,
+      "energyLevelId": 3
+    },
+    {
+      "id": 2,
+      "ownerId": 2,
+      "name": "Aurora",
+      "image": "http://placeimg.com/640/480",
+      "description": "Et repellendus consequatur deserunt placeat amet impedit eaque harum.",
+      "birthday": "2022-12-12",
+      "genderId": 1,
+      "energyLevelId": 2
+    },
+    {
+      "id": 3,
+      "ownerId": 3,
+      "name": "Koko",
+      "image": "http://placeimg.com/640/480",
+      "description": "Repudiandae vero autem mollitia.",
+      "birthday": "2022-12-15",
+      "genderId": 1,
+      "energyLevelId": 2
+    },
+    {
+      "id": 4,
+      "ownerId": 4,
+      "name": "George",
+      "image": "http://placeimg.com/640/480",
+      "birthday": "2022-12-12",
+      "genderId": 2,
+      "energyLevelId": 2
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "name": "Seattle"
+    },
+    {
+      "id": 2,
+      "name": "Nashville"
+    }
+  ],
+  "genders": [
+    {
+      "id": 1,
+      "type": "female"
+    },
+    {
+      "id": 2,
+      "type": "male"
+    }
+  ],
+  "energyLevels": [
+    {
+      "id": 1,
+      "type": "low"
+    },
+    {
+      "id": 2,
+      "type": "moderate"
+    },
+    {
+      "id": 3,
+      "type": "high"
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "type": "walks on the beach"
+    },
+    {
+      "id": 2,
+      "type": "running"
+    },
+    {
+      "id": 3,
+      "type": "napping"
+    },
+    {
+      "id": 4,
+      "type": "people watching"
+    },
+    {
+      "id": 5,
+      "type": "obstacle courses"
+    }
+  ],
+  "goals": [
+    {
+      "id": 1,
+      "type": "fetch"
+    },
+    {
+      "id": 2,
+      "type": "sit"
+    },
+    {
+      "id": 3,
+      "type": "play dead"
+    },
+    {
+      "id": 4,
+      "type": "shake hands"
+    },
+    {
+      "id": 5,
+      "type": "roll over"
+    }
+  ],
+  "sites": [
+    {
+      "id": 1,
+      "cityId": 1,
+      "name": "Golden Gardens Park",
+      "address": "8498 Seaview Pl NW, Seattle, WA 98117"
+    },
+    {
+      "id": 2,
+      "cityId": 1,
+      "name": "Warren G. Magnuson Park",
+      "address": "7400 Sand Point Way NE, Seattle, WA 98115"
+    },
+    {
+      "id": 3,
+      "cityId": 1,
+      "name": "Magnolia Manor Park",
+      "address": "3500 28th Ave W, Seattle, WA 98199"
+    },
+    {
+      "id": 4,
+      "cityId": 1,
+      "name": "Regrade Dog Park",
+      "address": "2251 3rd Ave, Seattle, WA 98121"
+    },
+    {
+      "id": 5,
+      "cityId": 2,
+      "name": "Centennial Dog Park",
+      "address": "2500 West End Ave, Nashville, TN 37203"
+    },
+    {
+      "id": 6,
+      "cityId": 2,
+      "name": "Edwin Warner Dog Park",
+      "address": "50 Vaughn Rd, Nashville, TN 37221"
+    },
+    {
+      "id": 7,
+      "cityId": 2,
+      "name": "Shelby Dog Park",
+      "address": "401 S 20th St, Nashville, TN 37206"
+    },
+    {
+      "id": 8,
+      "cityId": 2,
+      "name": "Two Rivers Dog Park",
+      "address": "3150 McGavock Pike, Nashville, TN 37214"
+    }
+  ],
+  "dogActivities": [
+    {
+      "id": 1,
+      "dogId": 1,
+      "activityId": 1
+    },
+    {
+      "id": 2,
+      "dogId": 1,
+      "activityId": 2
+    },
+    {
+      "id": 3,
+      "dogId": 1,
+      "activityId": 4
+    },
+    {
+      "id": 4,
+      "dogId": 1,
+      "activityId": 5
+    },
+    {
+      "id": 5,
+      "dogId": 2,
+      "activityId": 1
+    },
+    {
+      "id": 6,
+      "dogId": 2,
+      "activityId": 3
+    },
+    {
+      "id": 7,
+      "dogId": 2,
+      "activityId": 4
+    },
+    {
+      "id": 8,
+      "dogId": 3,
+      "activityId": 1
+    },
+    {
+      "id": 9,
+      "dogId": 3,
+      "activityId": 2
+    },
+    {
+      "id": 10,
+      "dogId": 3,
+      "activityId": 3
+    },
+    {
+      "id": 11,
+      "dogId": 3,
+      "activityId": 4
+    },
+    {
+      "id": 12,
+      "dogId": 4,
+      "activityId": 2
+    },
+    {
+      "id": 13,
+      "dogId": 4,
+      "activityId": 3
+    },
+    {
+      "id": 14,
+      "dogId": 4,
+      "activityId": 4
+    }
+  ],
+  "dogGoals": [
+    {
+      "id": 1,
+      "dogId": 1,
+      "goalId": 3
+    },
+    {
+      "id": 2,
+      "dogId": 1,
+      "goalId": 4
+    },
+    {
+      "id": 3,
+      "dogId": 2,
+      "goalId": 3
+    },
+    {
+      "id": 4,
+      "dogId": 2,
+      "goalId": 4
+    },
+    {
+      "id": 5,
+      "dogId": 3,
+      "goalId": 4
+    },
+    {
+      "id": 6,
+      "dogId": 3,
+      "goalId": 5
+    },
+    {
+      "id": 7,
+      "dogId": 4,
+      "goalId": 1
+    },
+    {
+      "id": 8,
+      "dogId": 4,
+      "goalId": 3
+    },
+    {
+      "id": 9,
+      "dogId": 4,
+      "goalId": 4
+    }
+  ],
+  "dogSites": [
+    {
+      "id": 1,
+      "dogId": 1,
+      "siteId": 1
+    },
+    {
+      "id": 2,
+      "dogId": 1,
+      "siteId": 2
+    },
+    {
+      "id": 3,
+      "dogId": 2,
+      "siteId": 1
+    },
+    {
+      "id": 4,
+      "dogId": 2,
+      "siteId": 2
+    },
+    {
+      "id": 5,
+      "dogId": 2,
+      "siteId": 3
+    },
+    {
+      "id": 6,
+      "dogId": 3,
+      "siteId": 5
+    },
+    {
+      "id": 7,
+      "dogId": 3,
+      "siteId": 6
+    },
+    {
+      "id": 8,
+      "dogId": 3,
+      "siteId": 7
+    },
+    {
+      "id": 9,
+      "dogId": 4,
+      "siteId": 5
+    },
+    {
+      "id": 10,
+      "dogId": 4,
+      "siteId": 6
+    },
+    {
+      "id": 10,
+      "dogId": 4,
+      "siteId": 8
+    }
+  ]
 }
